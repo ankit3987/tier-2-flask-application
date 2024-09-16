@@ -33,7 +33,7 @@ services:
       MYSQL_PASSWORD: root
       MYSQL_DB: devops
     depends_on:
-      mysql: 
+      mysql:
         condition: service_healthy
 
     networks:
