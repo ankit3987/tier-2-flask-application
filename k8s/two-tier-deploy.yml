@@ -24,7 +24,7 @@ spec:
           #image: trainwithshubham/flaskapp:latest
           env:
             - name: MYSQL_HOST
-              value: "10.110.223.181"
+              value: "10.110.223.181"  #This is the cluster ip of mysql when you hit kubectl get svc
             - name: MYSQL_USER
               value: "admin"
             - name: MYSQL_PASSWORD
